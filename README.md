@@ -1,24 +1,13 @@
-# 🌐 Enterprise Networking, Security & Automation Journal
+# 🌐 Enterprise Network Security & Automation Logs
 
-Welcome to my infrastructure journal. This repository documents my hands-on experience, lab topologies, and configuration logs for enterprise-level networking, next-generation network security, and modern Python network automation.
+This repository documents my advanced networking architecture labs, firewall security policies, identity management implementations, and infrastructure automation workflows.
 
-## 🛠️ Focus Areas & Tech Stack
+## 🛠️ Infrastructure Technologies
+* **Routing & Core Networks:** CCNP Architecture, OSPF, EIGRP, BGP, STP, and MPLS backbones.
+* **Network Security & Identity:** Cisco Firepower, Cisco ASA, Palo Alto Networks, Fortinet (FortiGate), Cisco ISE (Identity Services Engine), and Site-to-Site/Remote Access IPsec VPNs.
+* **Automation:** Python scripting using Netmiko, Paramiko, and NAPALM for continuous configuration deployment and state verification.
 
-### 🔒 Network Security & IPsec
-* **Firewalls:** Cisco ASA, Palo Alto Networks, Fortinet (FortiGate).
-* **Security Concepts:** IPsec VPNs, SSL-VPN, Access Control Lists (ACLs), NAT/PAT, and Zone-Based Firewalls.
-
-### ⚙️ Network Automation (Infrastructure as Code)
-* **Python for Networking:** Scripting with Netmiko, Paramiko, and NAPALM to automate configuration backups and mass updates.
-* **API Integration:** Interacting with modern firewall and switch APIs to automate policy creation.
-
-### 🏁 Core CCNP Enterprise Routing & Switching
-* **Protocols:** OSPF, EIGRP, BGP, STP, EtherChannel.
-* **Tools & Simulation:** GNS3, EVE-NG, Cisco Packet Tracer.
-
----
-## 📈 Current Progress & Roadmap
-* [x] **Phase 1:** Core CCNP Enterprise routing & switching refresh.
-* [ ] **Phase 2:** Deep dive into Next-Gen Firewalls (Palo Alto & Fortinet policy deployment).
-* [ ] **Phase 3:** Building Python scripts to automate multi-vendor network environments.
-
+## 📌 Lab Topologies & Playbooks
+* `/routing-labs` - Advanced multi-protocol routing configurations and topology maps via GNS3/EVE-NG.
+* `/firewall-policies` - Zone definitions, NAT rule configurations, and security profiles.
+* `/automation-scripts` - Practical Python scripts used to back up, audit, and configure multi-vendor environments.
